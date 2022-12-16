@@ -146,16 +146,36 @@ p.contact-me {
 
 .contact-me {
   margin-top: 100px;
+  padding-bottom: 25px;
 }
 
 .btn {
-  color: white;
-  background-color: #11999e;
-  padding: 7px 25px;
-  position: relative;
-  margin: auto;
+  background: #5fb4ed;
+  background-image: -webkit-linear-gradient(top, #5fb4ed, #357399);
+  background-image: -moz-linear-gradient(top, #5fb4ed, #357399);
+  background-image: -ms-linear-gradient(top, #5fb4ed, #357399);
+  background-image: -o-linear-gradient(top, #5fb4ed, #357399);
+  background-image: linear-gradient(to bottom, #5fb4ed, #357399);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
   text-decoration: none;
-  border-radius: 0.5rem;
+  position: relative;
+  top: 30px;
+}
+
+.btn:hover {
+  background: #73d9eb;
+  background-image: -webkit-linear-gradient(top, #73d9eb, #2c9194);
+  background-image: -moz-linear-gradient(top, #73d9eb, #2c9194);
+  background-image: -ms-linear-gradient(top, #73d9eb, #2c9194);
+  background-image: -o-linear-gradient(top, #73d9eb, #2c9194);
+  background-image: linear-gradient(to bottom, #73d9eb, #2c9194);
+  text-decoration: none;
 }
 
 hr {
@@ -170,6 +190,15 @@ hr {
   color: #11999e;
   padding: 0 20px 0 20px;
   text-decoration: none;
+}
+
+.copy-right {
+  font-size: 0.7rem;
+  padding-top: 20px;
+}
+
+.footer-link:hover {
+  color: #c7e1e2;
 }
 
 .bottom-container > p {
