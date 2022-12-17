@@ -199,6 +199,8 @@ hr {
 
 .footer-link:hover {
   color: #c7e1e2;
+  transition: 0.2s;
+  font-weight: 600;
 }
 
 .bottom-container > p {
@@ -213,7 +215,7 @@ hr {
 }
 
 .top-container-menu > span {
-  padding: 50px 30px 0 30px;
+  padding: 50px 30px 5px 30px;
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   color: #66bfbf;
@@ -226,4 +228,12 @@ hr {
   float: left;
   padding-left: 500px;
   padding-top: 40px;
+}
+
+.top-menu:hover {
+  padding: 45px 30px 5px 30px;
+  transition: 0.1s;
+  color: #7199b9;
+  transition: 0.2s;
+  font-weight: 900;
 }
